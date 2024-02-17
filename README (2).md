@@ -9,4 +9,4 @@ Welcome to the Crop Recommendation System documentation. Here, you'll find compr
 - Installation guide
 - Usage examples
 
-For more details, visit [official website/documentation link].
+
