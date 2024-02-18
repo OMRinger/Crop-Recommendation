@@ -53,7 +53,7 @@ We welcome contributions to the Crop Recommendation System! Please read `CONTRIB
 
 This project is proprietary and protected under a custom license agreement. For licensing information, please contact the repository owner.
 
-For further inquiries, including potential use cases and collaboration, please reach out to [Contact Information].
+For further inquiries, including potential use cases and collaboration, please reach out to androidextractions@gmail.com.
 
 ## Acknowledgments
 
