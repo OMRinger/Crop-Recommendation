@@ -58,7 +58,4 @@ For further inquiries, including potential use cases and collaboration, please r
 ## Acknowledgments
 
 - Thanks to all contributors who have helped to build this project.
-- Special thanks to [Name or Organization] for providing the initial dataset.
-```
 
-Please adjust the `[your-repository-url]`, `[Contact Information]`, and any specific acknowledgments to fit your project's details. This README template aims to give your project a professional appearance and provide all necessary information for users and contributors.
