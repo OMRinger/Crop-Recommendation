@@ -29,3 +29,11 @@ jobs:
       run: |
         conda install pytest
         pytest
+conda env remove -n crop-recommendation-env
+conda env create -f environment.yml
+conda update -n base -c defaults conda
+conda install mamba -n base -c conda-forge
+mamba env create -f environment.yml
+conda create -n crop-recommendation-env python=3.8
+conda activate crop-recommendation-env
+# Install packages one by one
