@@ -30,6 +30,16 @@ jobs:
         conda install pytest
         pytest
 conda env remove -n crop-recommendation-env
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    # Additional steps to setup Conda, etc.
+    - name: Remove Conda environment
+      run: |
+        conda env remove -n crop-recommendation-env
 conda env create -f environment.yml
 conda update -n base -c defaults conda
 conda install mamba -n base -c conda-forge
