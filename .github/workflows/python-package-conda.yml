@@ -29,7 +29,6 @@ jobs:
       run: |
         conda install pytest
         pytest
-conda env remove -n crop-recommendation-env
 jobs:
   build:
     runs-on: ubuntu-latest
