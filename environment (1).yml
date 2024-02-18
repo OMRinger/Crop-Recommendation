@@ -1,0 +1,19 @@
+name: crop-recommendation-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - flask  # If there's a web interface
+  - gunicorn  # For deploying Flask apps
+  - pytest  # For testing
+  - pylint  # For linting
+  - pip:
+      - flask-restful  # For RESTful API
+      - requests  # For HTTP requests to APIs
